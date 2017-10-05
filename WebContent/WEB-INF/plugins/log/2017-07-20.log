@@ -1,0 +1,268 @@
+七月 20, 2017 9:56:06 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 21487
+七月 20, 2017 9:56:06 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+七月 20, 2017 9:59:14 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 23843
+七月 20, 2017 9:59:14 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+七月 20, 2017 10:02:36 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/ 546 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/jquery.gritter.css 10 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 26 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery.gritter.min.js 22 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery-2.0.3.min.js 40 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/bootstrap.min.js 9 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 14 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/plugin.js 11 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/eModal.min.js 5 ms
+七月 20, 2017 10:02:37 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/font/fontawesome-webfont.woff 10 ms
+七月 20, 2017 10:02:42 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/service 38 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/ 27 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/bootstrap.min.js 8 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 20 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery.gritter.min.js 4 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/jquery.gritter.css 6 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 10 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery-2.0.3.min.js 22 ms
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/plugin.js 5 ms
+七月 20, 2017 10:03:00 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/eModal.min.js 3 ms
+七月 20, 2017 10:03:00 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/font/fontawesome-webfont.woff 11 ms
+七月 20, 2017 10:03:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/center 5 ms
+七月 20, 2017 10:03:27 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/download 5432 ms
+七月 20, 2017 10:03:27 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 10 ms
+七月 20, 2017 10:03:27 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 32 ms
+七月 20, 2017 10:03:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/install 20 ms
+七月 20, 2017 10:06:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/install 196 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/font-awesome.min.css 56 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/bootstrap.min.css 40 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/bootstrap-switch.css 33 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/js/bootstrap.min.js 46 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/js/jquery-2.0.3.min.js 59 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/jquery.gritter.css 27 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/js/bootbox.min.js 28 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/js/vue.js 83 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/js/setting.js 32 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/js/jquery.gritter.min.js 33 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/js/bootstrap-switch.js 33 ms
+七月 20, 2017 10:06:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/font/fontawesome-webfont.woff 27 ms
+七月 20, 2017 10:06:31 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/info 1130 ms
+七月 20, 2017 10:06:56 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/update 330 ms
+七月 20, 2017 10:06:56 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/images/ie-spacer.gif 22 ms
+七月 20, 2017 10:06:56 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/images/gritter.png 33 ms
+七月 20, 2017 10:07:07 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/update 328 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/ 139 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 12 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery.gritter.min.js 6 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/jquery.gritter.css 4 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/bootstrap.min.js 5 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery-2.0.3.min.js 12 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 8 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/plugin.js 2 ms
+七月 20, 2017 10:07:10 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/eModal.min.js 5 ms
+七月 20, 2017 10:07:11 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/font/fontawesome-webfont.woff 24 ms
+七月 20, 2017 10:07:13 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/ 28 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 14 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/bootstrap.min.js 6 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 4 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/jquery.gritter.css 3 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery.gritter.min.js 6 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery-2.0.3.min.js 32 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/plugin.js 2 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/eModal.min.js 3 ms
+七月 20, 2017 10:07:14 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/font/fontawesome-webfont.woff 9 ms
+七月 20, 2017 10:07:17 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/start 8 ms
+七月 20, 2017 10:07:18 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/bootstrap.min.css 69 ms
+七月 20, 2017 10:07:18 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/changyan/assets/css/font-awesome.min.css 31 ms
+七月 20, 2017 10:07:42 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/ 28 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/bootstrap.min.js 10 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery.gritter.min.js 4 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/jquery-2.0.3.min.js 14 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/jquery.gritter.css 6 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 10 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 20 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/plugin.js 4 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/js/eModal.min.js 4 ms
+七月 20, 2017 10:07:43 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/font/fontawesome-webfont.woff 16 ms
+七月 20, 2017 10:07:54 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/center 4 ms
+七月 20, 2017 10:09:19 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/download 16596 ms
+七月 20, 2017 10:09:19 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/font-awesome.min.css 7 ms
+七月 20, 2017 10:09:19 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/assets/css/bootstrap.min.css 16 ms
+七月 20, 2017 10:09:27 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/install 418 ms
+七月 20, 2017 10:09:27 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/css/bootstrap.min.css 56 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/css/bootstrap-switch.css 64 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/js/jquery-2.0.3.min.js 45 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/js/bootstrap.min.js 52 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/css/font-awesome.min.css 36 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/css/jquery.gritter.css 30 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/js/jquery.gritter.min.js 26 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/js/bootbox.min.js 46 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/js/bootstrap-switch.js 33 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/js/set_update.js 26 ms
+七月 20, 2017 10:09:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:23843/duoshuo/assets/font/fontawesome-webfont.woff 47 ms
+七月 20, 2017 10:12:42 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 20069
+七月 20, 2017 10:12:42 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+七月 20, 2017 10:13:28 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/ 524 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/bootstrap.min.css 26 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery.gritter.min.js 31 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/bootstrap.min.js 11 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/jquery.gritter.css 6 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery-2.0.3.min.js 32 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/font-awesome.min.css 7 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/eModal.min.js 14 ms
+七月 20, 2017 10:13:29 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/plugin.js 9 ms
+七月 20, 2017 10:13:30 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/font/fontawesome-webfont.woff 9 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/ 48 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery.gritter.min.js 10 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery-2.0.3.min.js 21 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/bootstrap.min.js 18 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/font-awesome.min.css 16 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/jquery.gritter.css 10 ms
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/bootstrap.min.css 17 ms
+七月 20, 2017 10:15:02 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/eModal.min.js 5 ms
+七月 20, 2017 10:15:02 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/plugin.js 6 ms
+七月 20, 2017 10:15:02 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/font/fontawesome-webfont.woff 29 ms
+七月 20, 2017 10:15:08 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/duoshuo/start 12 ms
+七月 20, 2017 10:15:08 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/duoshuo/assets/css/bootstrap.min.css 196 ms
+七月 20, 2017 10:15:08 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/duoshuo/assets/css/font-awesome.min.css 143 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/ 31 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/bootstrap.min.js 11 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery-2.0.3.min.js 27 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/jquery.gritter.min.js 6 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/bootstrap.min.css 20 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/jquery.gritter.css 29 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/css/font-awesome.min.css 7 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/eModal.min.js 3 ms
+七月 20, 2017 10:15:25 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/js/plugin.js 1 ms
+七月 20, 2017 10:15:25 下午 com.hibegin.http.server.handler.HttpRequestHandler run
+信息: http://localhost:20069/assets/font/fontawesome-webfont.woff 18 ms
+七月 20, 2017 10:19:22 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 22998
+七月 20, 2017 10:19:22 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev

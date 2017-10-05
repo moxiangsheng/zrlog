@@ -1,0 +1,12 @@
+七月 28, 2017 4:45:53 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 28622
+七月 28, 2017 4:45:53 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+七月 28, 2017 4:49:39 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 21403
+七月 28, 2017 4:49:39 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+七月 28, 2017 6:26:08 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 25167
+七月 28, 2017 6:26:08 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev

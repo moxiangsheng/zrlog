@@ -1,0 +1,458 @@
+七月 20, 2017 9:56:07 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: plugin listening on port -> 41487
+七月 20, 2017 9:56:07 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: load jar files
+七月 20, 2017 9:59:16 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: plugin listening on port -> 43843
+七月 20, 2017 9:59:16 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: load jar files
+七月 20, 2017 10:02:36 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:02:42 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.service()
+七月 20, 2017 10:02:59 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:03:01 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.center()
+七月 20, 2017 10:03:21 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.download()
+七月 20, 2017 10:03:29 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.install()
+七月 20, 2017 10:03:29 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+严重: null
+七月 20, 2017 10:03:32 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"186c5782-c270-4a48-a629-2acff6920ddd","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 20, 2017 10:03:32 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 6 ms
+七月 20, 2017 10:03:32 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 20, 2017 10:06:28 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.install()
+七月 20, 2017 10:06:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 2 MsgPacket{contentType=JSON, status=send_request, methodStr=PLUGIN_INSTALL, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/install","header":null,"param":null,"requestBody":null,"uri":null,"url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=246}
+七月 20, 2017 10:06:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 2 MsgPacket{contentType=HTML, status=response_success, methodStr=PLUGIN_INSTALL, data= this file, dataLength=3263}
+七月 20, 2017 10:06:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/font-awesome.min.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/font-awesome.min.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 3 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/font-awesome.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/font-awesome.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=300}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 3 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=22119}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/bootstrap.min.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap.min.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 4 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/bootstrap.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=294}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 4 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=96273}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/bootstrap-switch.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap-switch.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 5 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/bootstrap-switch.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap-switch.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=300}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 5 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=6993}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/js/bootstrap.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootstrap.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 6 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/js/bootstrap.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootstrap.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=290}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 6 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=27726}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/js/jquery-2.0.3.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/jquery-2.0.3.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 7 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/js/jquery-2.0.3.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/jquery-2.0.3.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=296}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 7 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=83612}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 3 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/jquery.gritter.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/jquery.gritter.css
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 8 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/jquery.gritter.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/jquery.gritter.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=296}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 8 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=1954}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/js/bootbox.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootbox.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 9 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/js/bootbox.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootbox.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=286}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 9 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=5446}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/js/vue.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /js/vue.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 10 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/js/vue.js","header":null,"param":null,"requestBody":null,"uri":"/js/vue.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=256}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 10 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=224170}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 5 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/js/setting.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /js/setting.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 11 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/js/setting.js","header":null,"param":null,"requestBody":null,"uri":"/js/setting.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=264}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 11 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=2329}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/js/jquery.gritter.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/jquery.gritter.min.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 12 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/js/jquery.gritter.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/jquery.gritter.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=300}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 12 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=4248}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/js/bootstrap-switch.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootstrap-switch.js
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 13 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/js/bootstrap-switch.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootstrap-switch.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=296}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 13 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=26858}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/font/fontawesome-webfont.woff
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/font/fontawesome-webfont.woff
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 14 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/font/fontawesome-webfont.woff","header":null,"param":null,"requestBody":null,"uri":"/assets/font/fontawesome-webfont.woff","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=310}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 14 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=43572}
+七月 20, 2017 10:06:29 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/info
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /info
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 15 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_METHOD, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/info","header":{"Accept-Charset":"GB2312,UTF-8;q=0.7,*;q=0.7","Cookie":"JSESSIONID=3EB1896D00456B5ABC524BC0A9F96C0F; _ga=GA1.1.1341489374.1500201449; template=/include/templates/default","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Blog-Version":"1.6.0","User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0","Connection":"Keep-Alive","AccessUrl":"http://localhost:8080/zrlog","Host":"localhost:23843","Accept-Encoding":"gzip, deflate","Full-Url":"http://localhost:8080/zrlog/admin/plugins/changyan/info","LoginUserId":"1","LoginUserName":"admin","IsLogin":"true","Accept-Language":"zh-cn,zh;q=0.5"},"param":{"name":["changyan"]},"requestBody":[],"uri":"/info.action","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=916}
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 15 MsgPacket{contentType=JSON, status=send_request, methodStr=GET_WEBSITE, data={"key":"appId,appKey,status,commentEmailNotify,callbackUrl"}, dataLength=60}
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:30 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 16 MsgPacket{contentType=JSON, status=response_success, methodStr=GET_WEBSITE, data={"commentEmailNotify":null,"appId":null,"appKey":null,"callbackUrl":null,"status":null}, dataLength=87}
+七月 20, 2017 10:06:31 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 16 MsgPacket{contentType=JSON, status=response_success, methodStr=HTTP_METHOD, data={"commentEmailNotify":null,"fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/info","appId":null,"appKey":null,"callbackUrl":"null/p/changyan/sync/1d7c5cf63738469696706b34b08f5969","userName":"admin","userId":1,"status":null}, dataLength=236}
+七月 20, 2017 10:06:31 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:55 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/update
+七月 20, 2017 10:06:55 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /update
+七月 20, 2017 10:06:55 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 17 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_METHOD, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/update","header":{"Accept-Charset":"GB2312,UTF-8;q=0.7,*;q=0.7","Cookie":"JSESSIONID=3EB1896D00456B5ABC524BC0A9F96C0F; _ga=GA1.1.1341489374.1500201449; template=/include/templates/default","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Blog-Version":"1.6.0","User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0","Connection":"Keep-Alive","AccessUrl":"http://localhost:8080/zrlog","Host":"localhost:23843","Accept-Encoding":"gzip, deflate","Full-Url":"http://localhost:8080/zrlog/admin/plugins/changyan/update","LoginUserId":"1","LoginUserName":"admin","IsLogin":"true","Accept-Language":"zh-cn,zh;q=0.5","Content-Length":"132","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8"},"param":{"commentEmailNotify":["on"],"appId":["123456"],"name":["changyan"],"appKey":["123456"],"callbackUrl":["null/p/changyan/sync/1d7c5cf63738469696706b34b08f5969"],"status":["on"]},"requestBody":[97,112,112,73,100,61,49,50,51,52,53,54,38,97,112,112,75,101,121,61,49,50,51,52,53,54,38,99,97,108,108,98,97,99,107,85,114,108,61,110,117,108,108,37,50,70,112,37,50,70,99,104,97,110,103,121,97,110,37,50,70,115,121,110,99,37,50,70,49,100,55,99,53,99,102,54,51,55,51,56,52,54,57,54,57,54,55,48,54,98,51,52,98,48,56,102,53,57,54,57,38,115,116,97,116,117,115,61,111,110,38,99,111,109,109,101,110,116,69,109,97,105,108,78,111,116,105,102,121,61,111,110],"uri":"/update.action","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=1612}
+七月 20, 2017 10:06:55 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 17 MsgPacket{contentType=JSON, status=send_request, methodStr=SET_WEBSITE, data={"commentEmailNotify":"on","appId":"123456","name":"changyan","appKey":"123456","callbackUrl":"null/p/changyan/sync/1d7c5cf63738469696706b34b08f5969","status":"on"}, dataLength=164}
+七月 20, 2017 10:06:55 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 18 MsgPacket{contentType=JSON, status=response_success, methodStr=SET_WEBSITE, data={"commentEmailNotify":{"result":true},"appId":{"result":true},"name":{"result":true},"appKey":{"result":true},"callbackUrl":{"result":true},"status":{"result":true}}, dataLength=165}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 18 MsgPacket{contentType=JSON, status=response_success, methodStr=HTTP_METHOD, data={"success":true}, dataLength=16}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/images/ie-spacer.gif
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/images/ie-spacer.gif
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 19 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/images/ie-spacer.gif","header":null,"param":null,"requestBody":null,"uri":"/assets/images/ie-spacer.gif","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=292}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 19 MsgPacket{contentType=BYTE, status=response_error, methodStr=HTTP_FILE, data= this file, dataLength=0}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/images/gritter.png
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/images/gritter.png
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 20 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/images/gritter.png","header":null,"param":null,"requestBody":null,"uri":"/assets/images/gritter.png","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=288}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 20 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=4880}
+七月 20, 2017 10:06:56 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/update
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /update
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 21 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_METHOD, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/update","header":{"Accept-Charset":"GB2312,UTF-8;q=0.7,*;q=0.7","Cookie":"JSESSIONID=3EB1896D00456B5ABC524BC0A9F96C0F; _ga=GA1.1.1341489374.1500201449; template=/include/templates/default","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Blog-Version":"1.6.0","User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0","Connection":"Keep-Alive","AccessUrl":"http://localhost:8080/zrlog","Host":"localhost:23843","Accept-Encoding":"gzip, deflate","Full-Url":"http://localhost:8080/zrlog/admin/plugins/changyan/update","LoginUserId":"1","LoginUserName":"admin","IsLogin":"true","Accept-Language":"zh-cn,zh;q=0.5","Content-Length":"132","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8"},"param":{"commentEmailNotify":["on"],"appId":["123456"],"name":["changyan"],"appKey":["123456"],"callbackUrl":["null/p/changyan/sync/1d7c5cf63738469696706b34b08f5969"],"status":["on"]},"requestBody":[97,112,112,73,100,61,49,50,51,52,53,54,38,97,112,112,75,101,121,61,49,50,51,52,53,54,38,99,97,108,108,98,97,99,107,85,114,108,61,110,117,108,108,37,50,70,112,37,50,70,99,104,97,110,103,121,97,110,37,50,70,115,121,110,99,37,50,70,49,100,55,99,53,99,102,54,51,55,51,56,52,54,57,54,57,54,55,48,54,98,51,52,98,48,56,102,53,57,54,57,38,115,116,97,116,117,115,61,111,110,38,99,111,109,109,101,110,116,69,109,97,105,108,78,111,116,105,102,121,61,111,110],"uri":"/update.action","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=1612}
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 21 MsgPacket{contentType=JSON, status=send_request, methodStr=SET_WEBSITE, data={"commentEmailNotify":"on","appId":"123456","name":"changyan","appKey":"123456","callbackUrl":"null/p/changyan/sync/1d7c5cf63738469696706b34b08f5969","status":"on"}, dataLength=164}
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 22 MsgPacket{contentType=JSON, status=response_success, methodStr=SET_WEBSITE, data={"commentEmailNotify":{"result":true},"appId":{"result":true},"name":{"result":true},"appKey":{"result":true},"callbackUrl":{"result":true},"status":{"result":true}}, dataLength=165}
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 22 MsgPacket{contentType=JSON, status=response_success, methodStr=HTTP_METHOD, data={"success":true}, dataLength=16}
+七月 20, 2017 10:07:07 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:07:09 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:07:13 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:07:17 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.start()
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/bootstrap.min.css
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap.min.css
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 23 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/bootstrap.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=294}
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 23 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=96273}
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 3 ms
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /changyan/assets/css/font-awesome.min.css
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/font-awesome.min.css
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 24 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/changyan/assets/css/font-awesome.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/font-awesome.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=300}
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 24 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=22119}
+七月 20, 2017 10:07:18 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:07:42 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:07:54 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.center()
+七月 20, 2017 10:09:03 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.download()
+七月 20, 2017 10:09:23 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"评论插件","id":"5b693577-c47c-4d3a-b4fb-56f3099a0928","indexPage":"index","name":"多说评论","paths":["/sync"],"services":[],"shortName":"duoshuo","version":"1.1.2"}, dataLength=296}
+七月 20, 2017 10:09:23 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:09:23 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 20, 2017 10:09:27 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.install()
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 2 MsgPacket{contentType=JSON, status=send_request, methodStr=PLUGIN_INSTALL, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/install","header":null,"param":null,"requestBody":null,"uri":null,"url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=245}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 2 MsgPacket{contentType=JSON, status=send_request, methodStr=GET_WEBSITE, data={"key":"short_name,secret,status,commentEmailNotify"}, dataLength=53}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 3 MsgPacket{contentType=JSON, status=response_success, methodStr=GET_WEBSITE, data={"commentEmailNotify":null,"short_name":null,"secret":null,"status":null}, dataLength=73}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 3 MsgPacket{contentType=HTML, status=response_success, methodStr=PLUGIN_INSTALL, data= this file, dataLength=6180}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/bootstrap.min.css
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap.min.css
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 4 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/bootstrap.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=293}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 4 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=96273}
+七月 20, 2017 10:09:27 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 3 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/bootstrap-switch.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap-switch.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 5 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/bootstrap-switch.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap-switch.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=299}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 5 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=6993}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/js/jquery-2.0.3.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/jquery-2.0.3.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 6 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/js/jquery-2.0.3.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/jquery-2.0.3.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=295}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 6 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=83612}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/js/bootstrap.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootstrap.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 7 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/js/bootstrap.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootstrap.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=289}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 7 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=27726}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/font-awesome.min.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/font-awesome.min.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 8 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/font-awesome.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/font-awesome.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=299}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 8 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=22119}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/jquery.gritter.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/jquery.gritter.css
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 9 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/jquery.gritter.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/jquery.gritter.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=295}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 9 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=1954}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/js/jquery.gritter.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/jquery.gritter.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 10 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/js/jquery.gritter.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/jquery.gritter.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=299}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 10 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=4248}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/js/bootbox.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootbox.min.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 11 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/js/bootbox.min.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootbox.min.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=285}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 11 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=5446}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/js/bootstrap-switch.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/js/bootstrap-switch.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 12 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/js/bootstrap-switch.js","header":null,"param":null,"requestBody":null,"uri":"/assets/js/bootstrap-switch.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=295}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 12 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=26858}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/js/set_update.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /js/set_update.js
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 13 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/js/set_update.js","header":null,"param":null,"requestBody":null,"uri":"/js/set_update.js","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=269}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 13 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=914}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/font/fontawesome-webfont.woff
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/font/fontawesome-webfont.woff
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 14 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/font/fontawesome-webfont.woff","header":null,"param":null,"requestBody":null,"uri":"/assets/font/fontawesome-webfont.woff","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=309}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 14 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=43572}
+七月 20, 2017 10:09:28 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/refresh
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /refresh
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 15 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_METHOD, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/refresh","header":{"Accept-Charset":"GB2312,UTF-8;q=0.7,*;q=0.7","Cookie":"JSESSIONID=3EB1896D00456B5ABC524BC0A9F96C0F; _ga=GA1.1.1341489374.1500201449; template=/include/templates/default","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","Blog-Version":"1.6.0","User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0","Connection":"Keep-Alive","AccessUrl":"http://localhost:8080/zrlog","Host":"localhost:23843","Accept-Encoding":"gzip, deflate","Full-Url":"http://localhost:8080/zrlog/admin/plugins/duoshuo/refresh","LoginUserId":"1","LoginUserName":"admin","IsLogin":"true","Accept-Language":"zh-cn,zh;q=0.5"},"param":{"name":["duoshuo"]},"requestBody":[],"uri":"/refresh.action","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=922}
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 15 MsgPacket{contentType=JSON, status=send_request, methodStr=GET_WEBSITE, data={"key":"short_name,secret,status"}, dataLength=34}
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 1 ms
+七月 20, 2017 10:09:44 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 16 MsgPacket{contentType=JSON, status=response_success, methodStr=GET_WEBSITE, data={"short_name":null,"secret":null,"status":null}, dataLength=47}
+七月 20, 2017 10:12:45 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: plugin listening on port -> 40069
+七月 20, 2017 10:12:45 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: load jar files
+七月 20, 2017 10:12:45 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"06184dde-1472-4ccd-82c8-2e8f1616db87","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 20, 2017 10:12:45 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 11 ms
+七月 20, 2017 10:12:46 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 20, 2017 10:12:47 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"评论插件","id":"21cd93f4-bb8d-444f-a9df-fcb5303bf6f1","indexPage":"index","name":"多说评论","paths":["/sync"],"services":[],"shortName":"duoshuo","version":"1.1.2"}, dataLength=296}
+七月 20, 2017 10:12:47 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:12:47 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 20, 2017 10:13:28 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:15:01 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:15:08 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.start()
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/bootstrap.min.css
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/bootstrap.min.css
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 2 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/bootstrap.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/bootstrap.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=293}
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 2 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=96273}
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 4 ms
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request uri /duoshuo/assets/css/font-awesome.min.css
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.incp.PluginInterceptor doInterceptor
+信息: request path /assets/css/font-awesome.min.css
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 3 MsgPacket{contentType=JSON, status=send_request, methodStr=HTTP_FILE, data={"class":"com.fzb.zrlog.plugin.data.codec.HttpRequestInfo","fullUrl":"http://localhost:8080/zrlog/admin/plugins/duoshuo/assets/css/font-awesome.min.css","header":null,"param":null,"requestBody":null,"uri":"/assets/css/font-awesome.min.css","url":null,"userId":1,"userName":"admin","version":"1.6.0"}, dataLength=299}
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 3 MsgPacket{contentType=BYTE, status=response_success, methodStr=HTTP_FILE, data= this file, dataLength=22119}
+七月 20, 2017 10:15:08 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 2 ms
+七月 20, 2017 10:15:24 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 20, 2017 10:19:24 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: plugin listening on port -> 42998
+七月 20, 2017 10:19:24 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: load jar files
+七月 20, 2017 10:19:25 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"d98f6abc-73d6-4dde-93b8-36ec2899feda","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 20, 2017 10:19:25 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 8 ms
+七月 20, 2017 10:19:25 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 20, 2017 10:19:27 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"评论插件","id":"b449218e-227d-490f-bb24-66e1b1026267","indexPage":"index","name":"多说评论","paths":["/sync"],"services":[],"shortName":"duoshuo","version":"1.1.2"}, dataLength=296}
+七月 20, 2017 10:19:27 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 3 ms
+七月 20, 2017 10:19:27 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}

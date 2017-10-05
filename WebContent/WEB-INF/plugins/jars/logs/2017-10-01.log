@@ -1,0 +1,8 @@
+十月 01, 2017 4:28:16 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"cc20eb91-233f-45a2-a872-5d57000a8845","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+十月 01, 2017 4:28:16 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+Oct 01, 2017 4:51:32 PM com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+INFO: send >>> 1 MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"3c50f20b-d0b3-4525-a61a-ef01fe5e02ec","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+Oct 01, 2017 4:51:32 PM com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+INFO: recv <<< 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}

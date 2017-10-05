@@ -1,0 +1,12 @@
+七月 28, 2017 4:45:58 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"26ed1e75-ecbc-4de7-bca4-4256eed4d9cb","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 28, 2017 4:45:59 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 28, 2017 4:49:43 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"eca117b5-bb78-400d-87c5-96c893ae42b9","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 28, 2017 4:49:43 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 28, 2017 6:26:13 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"9671479b-b807-49a5-9c11-c9c87855ec33","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 28, 2017 6:26:13 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}

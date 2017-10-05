@@ -1,0 +1,32 @@
+七月 23, 2017 10:43:37 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: plugin listening on port -> 44484
+七月 23, 2017 10:43:37 下午 com.fzb.zrlog.plugin.server.impl.NioServer create
+信息: load jar files
+七月 23, 2017 10:43:42 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"74c08f76-354c-40c8-a815-faf1e8bef16f","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 23, 2017 10:43:42 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 26 ms
+七月 23, 2017 10:43:43 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 23, 2017 10:43:45 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"评论插件","id":"158f902e-7131-4e9d-aa45-7d3a8499072a","indexPage":"index","name":"多说评论","paths":["/sync"],"services":[],"shortName":"duoshuo","version":"1.1.2"}, dataLength=296}
+七月 23, 2017 10:43:45 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 4 ms
+七月 23, 2017 10:43:45 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 23, 2017 10:43:46 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"畅言是一个简单而强大的社会化评论及聚合平台","id":"f5a14c8d-f35f-440e-bc16-b63e76752135","indexPage":"index","name":"畅言版评论框","paths":["/sync/"],"services":[],"shortName":"changyan","version":"1.0.2"}, dataLength=355}
+七月 23, 2017 10:43:46 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 3 ms
+七月 23, 2017 10:43:46 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 23, 2017 10:43:47 下午 com.fzb.zrlog.plugin.data.codec.SocketDecode doDecode
+信息: recv <<< null MsgPacket{contentType=JSON, status=send_request, methodStr=INIT_CONNECT, data={"actions":[],"author":"xiaochun","class":"com.fzb.zrlog.plugin.message.Plugin","dependentService":["emailService"],"desc":"评论插件","id":"c846ea91-41f9-4ed8-b73f-911f1f3c4c82","indexPage":"index","name":"多说评论","paths":["/sync"],"services":[],"shortName":"duoshuo","version":"1.1.2"}, dataLength=296}
+七月 23, 2017 10:43:47 下午 com.fzb.zrlog.plugin.server.impl.NioServer dispose
+信息: 5 ms
+七月 23, 2017 10:43:48 下午 com.fzb.zrlog.plugin.data.codec.SocketEncode doEncode
+信息: send >>> 1 MsgPacket{contentType=JSON, status=response_success, methodStr=INIT_CONNECT, data={"runType":"BLOG"}, dataLength=18}
+七月 23, 2017 10:45:35 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.index()
+七月 23, 2017 10:45:42 下午 com.hibegin.http.server.web.PluginManagerInterceptor doInterceptor
+信息: invoke method public void com.fzb.zrlog.plugin.server.controller.PluginController.center()

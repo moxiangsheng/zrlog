@@ -1,0 +1,38 @@
+十月 01, 2017 4:28:12 下午 com.hibegin.http.server.SimpleWebServer create
+信息: SimplerWebServer listening on port -> 20468
+十月 01, 2017 4:28:13 下午 com.hibegin.http.server.SimpleWebServer listener
+信息: SimplerWebServer is run versionStr -> 1.4.x-dev
+Oct 01, 2017 4:45:05 PM com.hibegin.http.server.SimpleWebServer create
+INFO: SimplerWebServer listening on port -> 23061
+Oct 01, 2017 4:45:05 PM com.hibegin.http.server.SimpleWebServer listener
+INFO: SimplerWebServer is run versionStr -> 1.4.x-dev
+Oct 01, 2017 4:46:56 PM com.hibegin.http.server.SimpleWebServer create
+INFO: SimplerWebServer listening on port -> 22374
+Oct 01, 2017 4:46:56 PM com.hibegin.http.server.SimpleWebServer listener
+INFO: SimplerWebServer is run versionStr -> 1.4.x-dev
+Oct 01, 2017 4:51:31 PM com.hibegin.http.server.SimpleWebServer create
+INFO: SimplerWebServer listening on port -> 21033
+Oct 01, 2017 4:51:31 PM com.hibegin.http.server.SimpleWebServer listener
+INFO: SimplerWebServer is run versionStr -> 1.4.x-dev
+Oct 01, 2017 5:00:26 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/service 13 ms
+Oct 01, 2017 5:10:14 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/ 142 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/css/bootstrap.min.css 5 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/css/jquery.gritter.css 2 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/js/jquery-2.0.3.min.js 5 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/css/font-awesome.min.css 17 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/js/jquery.gritter.min.js 1 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/js/bootstrap.min.js 16 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/js/eModal.min.js 8 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/js/plugin.js 1 ms
+Oct 01, 2017 5:10:15 PM com.hibegin.http.server.handler.HttpRequestHandler run
+INFO: http://localhost:21033/assets/font/fontawesome-webfont.woff 1 ms
